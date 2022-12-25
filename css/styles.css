@@ -27,9 +27,11 @@ a:hover {
 
 header {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
+  box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,6 +71,29 @@ header li:last-child {
   header img {
     margin-bottom: 15px;
   }
+}
+
+#btn-fixed {
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #191c03;
+  padding: 15px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.5);
+
+  opacity: 0.6;
+}
+
+#btn-fixed:hover {
+  opacity: 1;
+  transition: 0.3s;
 }
 
 /* HERO */
