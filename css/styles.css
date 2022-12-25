@@ -74,13 +74,13 @@ header li:last-child {
 }
 
 #btn-fixed {
-  text-transform: uppercase;
-  display: inline-block;
-  background-color: #c3c63b;
   padding: 15px;
-  border-radius: 4px;
+  background-color: #c3c63b;
   color: #fff;
-  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 
   position: fixed;
   right: 20px;
