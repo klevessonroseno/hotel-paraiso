@@ -10,6 +10,7 @@
 
 body {
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 nav,
@@ -116,10 +117,10 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: nowrap;
   align-items: center;
 
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
-.overflow-container div img {
+.overflow-container img {
   width: 500px;
 }
 
